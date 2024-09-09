@@ -78,13 +78,7 @@ export default function Home(){
                         transform: `perspective(1000px)`,
                         transformStyle: 'preserve-3d'
                     }}
-                    // style={{
                     
-                    //         transform: `perspective(1000px) rotateY(${yDeg * 10}deg) rotateX(${xDeg * 10}deg) scale3d(1,1,1) translateX(-50%)`
-                    //     }} 
-                    
-                    // onMouseMove={tiltRectange}
-                    // className="w-[30%] h-[75%] bg-blue fixed top-[15%] left-[50%] translate-x-[-50%] rounded-lg z-[1]"
                     >
                         
                 
@@ -103,10 +97,7 @@ export default function Home(){
                 <div className="absolute w-full lg:w-auto top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[3]">
                     
                     <Parallax className="relative left-[50%] translate-x-[-50%] mt-[250px] lg:mt-[325px] lg:w-auto w-full" opacity={[1,0]} startScroll={0} endScroll={bottom/2}>
-                    <h2 className="relative block text-mobilexl lg:text-xl text-center font-kl uppercase pointer-events-none mb-[15px]">The members-only space to work on your ideas, share your projects, and connect with industry leaders + creatives worldwide, all guided by people and Ai Agent 8. </h2>
-                    <div className="font-kl bg-black flex w-fit mx-auto mt-[20px] px-[25px] py-[10px] text-button rounded-lg">
-                        APPLY NOW
-                    </div>
+                    <h2 className="relative block text-mobilexl lg:text-xl text-center font-kl uppercase pointer-events-none mb-[15px]">The members-only hub for community creators.</h2>
                     </Parallax>
                     
                 </div>
@@ -128,17 +119,6 @@ export default function Home(){
                 <div className="h-lvh relative z-[3] pointer-events-none">
                     <h2 className="text-2xl text-center font-kl uppercase pointer-events-none"></h2>
                 </div>
-                {/* <Parallax className="h-lvh relative z-[3] pointer-events-none" opacity={[0,1,'easeIn']} startScroll={bottom} endScroll={bottom * 1.75}>
-                    <div className="absolute top-[50%] left-[50%] lg:w-auto w-[95vw] translate-x-[-50%] translate-y-[-50%] z-[1] pointer-events-none">
-                        <h2 className="text-mobile2xl lg:text-2xl text-center font-kl uppercase pointer-events-none mb-[25px]">At 8LAB, your ideas don’t just come to life; they grow, connect, and earn.</h2> */}
-                        {/* <h2 className="relative block text-mobilexl lg:text-xl text-center font-kl bg-[#00c01d] pb-[10px] uppercase pointer-events-none mb-[15px]">Think of us as your testing ground for new businesses, side hustles, finding new clients, or that dream job. Pretty much anything you want to explore creatively.</h2> */}
-                    {/* </div>
-                </Parallax> */}
-                {/* <Parallax className="h-lvh relative z-[3] pointer-events-none" opacity={[0,1,'easeIn']} startScroll={bottom * 1.75} endScroll={bottom * 2.5}>
-                    <div className="absolute top-[50%] left-[50%] lg:w-auto w-[95vw] translate-x-[-50%] translate-y-[-50%] z-[1] pointer-events-none">
-                        <h2 className="text-mobile2xl lg:text-2xl text-center font-kl bg-[#00c01d] pb-[10px] uppercase pointer-events-none">The 8LAB BR8KDOWN</h2>
-                    </div>
-                </Parallax> */}
             </Element>
             
             

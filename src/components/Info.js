@@ -30,7 +30,7 @@ export default function Info(){
             
                     <div>
                         <h2 className="text-mobile2xl text-white lg:text-2xl font-kl mb-[25px] uppercase pointer-events-none">The 8LAB BR8KDOWN</h2>
-                        <h2 className="text-mobilexl lg:text-xl font-kl uppercase">Think of us as the testing ground for your ideas, side hustles, new experiences, and discovering what might be the next big thing at the intersection of creativity + tech.</h2>
+                        <h2 className="text-mobilexl lg:text-xl font-kl uppercase">Find, be found and grow.</h2>
                     </div>
 
                 
@@ -38,22 +38,22 @@ export default function Info(){
                     
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Achieve} height={40} alt="oops"/>
-                        <h3 className="text-xl mb-[20px] font-kl uppercase">Step 1: Brainstorm</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">IDEAS WANTED—Whether it’s big dreams or early drafts, we want to hear it all! Engage in conversations with experts, other members, and our AI creative partner. Share your thoughts and needs, and get feedback to elevate your idea.</span>
-                    </div>
-                    <div className="flex-1 mb-[100px] lg:mb-0">
-                        <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops"/>
-                        <h3 className="text-xl mb-[20px] font-kl uppercase">Step 2: Map it Out</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Stay on track with our monthly core groups. Set goals, create roadmaps, focus on key tasks, and hold each other accountable.</span>
+                        <h3 className="text-xl mb-[20px] font-kl uppercase">Find Opportunities</h3>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Discover collaboration opportunities, brand partenrships, and resources to take your community to the next level.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Impact} height={40} alt="oops"/>
-                        <h3 className="text-xl mb-[20px] font-kl uppercase">Step 3: Put in Work</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Access new tools, join cohorts, unlock resources, and get the actionable guidance you need to get sh*t done and reach your goals.</span>
+                        <h3 className="text-xl mb-[20px] font-kl uppercase">Grow with AI + People</h3>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Leverage Agent 8, our AI partner + industry leaders, for personalized growth strategies, creative ideas, and community management tips.</span>
+                    </div>
+                    <div className="flex-1 mb-[100px] lg:mb-0">
+                        <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops"/>
+                        <h3 className="text-xl mb-[20px] font-kl uppercase">Be found</h3>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Increase your visibility to brand, creators and potential community members.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Money} height={40} alt="oops"/>
-                        <h3 className="text-xl mb-[20px] font-kl uppercase">Step 4: Activate the 8PASS</h3>
+                        <h3 className="text-xl mb-[20px] font-kl uppercase">The 8PASS</h3>
                         <span className="lg:text-lg text-mobilelg block mb-[15px]">Discover a new experience with the 8PASS. Gain early access to gifts, products, apps, special deals, events, and other 8LAB benefits.</span>
                     </div>
                 </div>
