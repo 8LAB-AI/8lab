@@ -21,8 +21,6 @@ export default function App() {
       <Home/>
       <Info/>
       <About/>
-      <Learn/>
-      
       <Apply/>
 
     </main>
