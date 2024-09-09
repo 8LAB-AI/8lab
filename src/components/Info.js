@@ -38,22 +38,22 @@ export default function Info(){
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Achieve} height={40} alt="oops"/>
                         <h3 className="text-xl mb-[20px] font-kl uppercase">Find</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Connections and resources to take your community to the next level.</span>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Connect with the people and resources that move your vision forward and help your community grow stronger.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops"/>
                         <h3 className="text-xl mb-[20px] font-kl uppercase">Be found</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Increase your visibility to brands, creators and new members.</span>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Increase your visibility to brands, creators, and collaborators who align with your mission.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Impact} height={40} alt="oops"/>
                         <h3 className="text-xl mb-[20px] font-kl uppercase">Grow</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Leverage Agent 8, your AI partner + industry leaders, for personalized growth and expansion.</span>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Advance your skills, projects, and network with guidance from Agent 8 and top experts.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Money} height={40} alt="oops"/>
                         <h3 className="text-xl mb-[20px] font-kl uppercase">The 8PASS</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Unlock early access to experiences, products, apps, special deals, and other 8LAB benefits.</span>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Access experiences, products, apps, deals, and exclusive 8LAB benefits.</span>
                     </div>
                 </div>
             </div>
