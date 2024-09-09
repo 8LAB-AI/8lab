@@ -8,26 +8,34 @@ import { Element} from 'react-scroll';
 import CRTEffect from "./Overlay";
 import ApplyPerson from '../../public/images/apply.png';
 import Logo8 from '../../public/images/8lablogo.png';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 
 export default function Apply(){
     const [show, setShow] = useState(true);
+    const scrollRef = useRef(null);
 
-function applyClick() {
-    setShow(false);
-    window.voiceflow.chat.load({
-        verify: { projectID: '66c4b2d71f814f3b5752966c' },
-        url: 'https://general-runtime.voiceflow.com',
-        versionID: 'production',
-        render: {
-            mode: 'embedded',
-            target: document.getElementById('chatTarget'),
-        },
-        autostart: true
-    });
+    const scrollToBottom = () => {
+        if (scrollRef.current){
+            scrollRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    }
 
-}
+    function applyClick() {
+        setShow(false);
+        window.voiceflow.chat.load({
+            verify: { projectID: '66c4b2d71f814f3b5752966c' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production',
+            render: {
+                mode: 'embedded',
+                target: document.getElementById('chatTarget'),
+            },
+            autostart: true
+        });
+        setTimeout(scrollToBottom, 1000);
+    }
+
     return(
         <Element name="apply">
             {show && <div className="[text-shadow:_0.5px_0.5px_0_#00c01d] relative z-[3] bg-black w-full h-full md:h-dvh overflow-hidden" >
@@ -37,6 +45,7 @@ function applyClick() {
                     </a>
                 </div>
             </div>}
+            <div class="anchor-ref" ref={scrollRef}></div>
     
         </Element>
     )
