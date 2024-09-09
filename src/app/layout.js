@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import local from 'next/font/local';
 import Header from "@/components/Header";
 import Head from "next/head";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -83,6 +84,7 @@ export default function RootLayout({ children }) {
           <Header/>
           {children}
         </Providers>
+        <Script src="https://cdn.voiceflow.com/widget/bundle.mjs"></Script>
       </body>
     </html>
   );

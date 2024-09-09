@@ -261,9 +261,12 @@ body {
   animation-fill-mode: forwards;
 } */
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.vfrc-footer--watermark {
+  opacity: 0;
 }

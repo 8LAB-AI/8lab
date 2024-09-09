@@ -11,7 +11,7 @@ export default function About(){
                 
                 <div className='relative z-[3] w-full [text-shadow:_0.5px_0.5px_0_#00c01d]'>
                 
-                <div className="relative h-full lg:h-dvh bg-black z-[3]">
+                <div className="relative h-full bg-black z-[3]">
                 <div className="px-[45px] flex flex-col-reverse lg:flex-row gap-[30px] lg:gap-[100px] py-[150px] relative z-[3]">
                 
                 <div className='lg:flex-1 text-center'>
@@ -25,6 +25,9 @@ export default function About(){
                 </div>
             </div>
                 </div>
+                <div class="vfrc-footer--watermark"></div>
+            <div id="chatTarget" style={{zIndex: 2, position: 'relative', textShadow: 'none'}}></div>
+
                 
             </Element>
         
