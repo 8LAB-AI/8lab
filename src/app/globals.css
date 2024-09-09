@@ -97,7 +97,7 @@ body {
   }
 }
 .containerBlue {
-  background: #00c01d;
+  background: #000;
   width: 100dvw;
   height: 100%;
   
@@ -114,7 +114,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(18, 16, 16, 0.1);
+  background: rgba(55, 55, 55, 0.3);
   opacity: 0;
   z-index: 2;
   pointer-events: none;

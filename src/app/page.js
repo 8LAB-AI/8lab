@@ -16,7 +16,7 @@ export default function App() {
       </Head>
       
       <main className="relative text-white font-andalemo">
-      {/* <CRTEffect></CRTEffect> */}
+      <CRTEffect></CRTEffect>
       {/* <Header/> */}
       <Home/>
       <Info/>

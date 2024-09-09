@@ -79,6 +79,8 @@ export default function Home(){
                         transformStyle: 'preserve-3d'
                     }}
                     
+                    // onMouseMove={tiltRectange}
+                    // className="w-[30%] h-[75%] bg-blue fixed top-[15%] left-[50%] translate-x-[-50%] rounded-lg z-[1]"
                     >
                         
                 

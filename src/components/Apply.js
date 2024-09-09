@@ -14,7 +14,6 @@ export default function Apply(){
         <Element name="apply">
             
             <div className="[text-shadow:_0.5px_0.5px_0_#00c01d] relative z-[3] bg-black w-full h-full md:h-dvh overflow-hidden" >
-                <CRTEffect></CRTEffect>
                 
                 <div className="relative w-full my-[100px] z-[3] lg:text-2xl text-mobile2xl font-kl uppercase text-white text-center">
                     <h2 className="mb-[25px] mx-[20px]">IF THIS SOUNDS LIKE YOU…</h2>

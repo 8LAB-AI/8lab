@@ -48,7 +48,6 @@ export default function Header(){
         <div className={open ? 'fixed z-[255] top-0 px-[45px] py-[30px] flex justify-between w-full text-white' : 'fixed z-[255] top-0 px-[45px] py-[30px] flex justify-between w-full text-white'}>
             <Image className="hover:cursor-pointer relative z-[300]" src={Burger} width={20} alt="oops" onClick={toggleMenu}/>
             <div className={open ? 'absolute top-0 left-0 bg-blue w-full h-dvh transition-[left] ease-in duration-[500ms]' : "absolute top-0 bg-blue w-full h-dvh left-[-100vw] transition-[left] ease-in duration-[500ms]"}>
-                <CRTEffect></CRTEffect>
                 <div className='absolute z-[5] px-[45px] md:bottom-[30px] bottom-[40px] text-2xl text-white font-kl weight-[700] non-italic'>
                     
                     <Link className="block hover:cursor-pointer mb-[20px]" to="home" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}><Image src={Logo} height={40} alt="logo"/></Link>
