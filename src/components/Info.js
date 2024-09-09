@@ -24,7 +24,7 @@ export default function Info(){
     }, [width])
 
     return(
-        <Parallax className="h-full md:h-dvh bg-blue relative z-[3]">
+        <Parallax className="h-full bg-blue relative z-[3]">
             <CRTEffect></CRTEffect>
             <div className="relative z-[3] pt-[100px] pb-[25px] lg:pb-[100px] px-[45px] [text-shadow:_0.5px_0.5px_0_#00c01d]">
             
