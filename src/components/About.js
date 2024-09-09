@@ -14,7 +14,7 @@ export default function About(){
                 <div className="relative h-full lg:h-dvh bg-black z-[3]">
                 <div className="px-[45px] flex flex-col-reverse lg:flex-row gap-[30px] lg:gap-[100px] py-[150px] relative z-[3]">
                 
-                <div className='lg:flex-1'>
+                <div className='lg:flex-1 text-center'>
                     <h2 className="font-kl lg:text-2xl text-mobile2xl mb-[5px] uppercase">
                         ok, so... wtf is 8lab? 
                     </h2>
