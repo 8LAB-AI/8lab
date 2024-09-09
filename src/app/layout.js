@@ -8,7 +8,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "8 LAB",
+  title: "8LAB",
   description: "IN THE ERA OF AI, WE ARE STILL ABOUT THE PEOPLE.",
   icons: {
     icon: '/8lab.png', // /public path
