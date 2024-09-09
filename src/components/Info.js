@@ -38,7 +38,7 @@ export default function Info(){
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Achieve} height={40} alt="oops"/>
                         <h3 className="text-xl mb-[20px] font-kl uppercase">Find</h3>
-                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Connect with the people and resources that move your vision forward and help your vision and community grow stronger.</span>
+                        <span className="lg:text-lg text-mobilelg block mb-[15px]">Connect with the people and resources that move your vision forward and help your community grow stronger.</span>
                     </div>
                     <div className="flex-1 mb-[100px] lg:mb-0">
                         <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops"/>
