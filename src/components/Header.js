@@ -36,7 +36,7 @@ export default function Header(){
             <div className='flex self-center gap-[15px] drop-shadow-[1px_1px_0_#000000]'>
                 <a href="mailto:hello@8lab.ai"><Image src={Mail} height={15} alt="oops"/></a>
                 <a href="https://www.instagram.com/8lab.ai/"><Image src={Ig} height={15} alt="oops"/></a>
-                <a href="https://x.com/join8lab"><Image src={Twitter} height={15} alt="oops"/></a>
+                <a href="https://x.com/8labhq"><Image src={Twitter} height={15} alt="oops"/></a>
             </div>
             <div className='flex gap-[15px] text-base text-white font-kl weight-[700] non-italic'>
                 <Link className="hover:cursor-pointer" to="about" smooth='easeIn' delay={150} duration={2500}>ABOUT</Link>
