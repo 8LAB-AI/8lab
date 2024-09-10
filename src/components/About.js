@@ -19,7 +19,7 @@ export default function About(){
                         ok, so... wtf is 8lab? 
                     </h2>
                     <span className="block lg:text-lg text-mobilebase mb-[10px]">
-                        Want to know? Join our waitlist.
+                        Join our waitlist and find out.
                     </span>
                     <span className="block text-9xl"> ↓ </span>
                 </div>
