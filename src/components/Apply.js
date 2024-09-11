@@ -8,17 +8,63 @@ import { Element} from 'react-scroll';
 import CRTEffect from "./Overlay";
 import ApplyPerson from '../../public/images/apply.png';
 import Logo8 from '../../public/images/8lablogo.png';
+import { useState } from 'react';
 
 
+
+
+// component that renders an email input and submits that email to the backend service /api/subscribe
 export default function Apply(){
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const res = await fetch('/api/subscribe', {
+            body: JSON.stringify({
+                email: email
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            method: 'POST'
+        });
+
+        const { error } = await res.json();
+
+        if (error) {
+            console.log(error);
+        } else {
+            setEmail('');
+        }
+    }
+
 
     return(
         <Element name="apply">
             <div className="[text-shadow:_0.5px_0.5px_0_#00c01d] relative z-[3] bg-black w-full h-full md:h-dvh overflow-hidden" >
                 <div className="relative z-[100]">
-                    <a href="mailto:hello@8lab.ai" className="block w-full h-full rounded-[100%] text-2xl relative hover:cursor-pointer">
-                        <Image className="animate-rotate relative lg:w-[250px] lg:h-[250px] w-[150px] h-[150px] mx-auto" src={Logo8} width={250} height={250} alt="oops"/>
-                    </a>
+                <div className="flex flex-col items-center justify-center h-full px-4 py-8">
+                    <form onSubmit={handleSubmit} className="w-full max-w-md">
+                        <div className="flex items-center border-b border-white py-2">
+                            <input 
+                                className="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" 
+                                type="email" 
+                                placeholder="Enter your email" 
+                                aria-label="Email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                            />
+                            <button 
+                                className="flex-shrink-0 bg-white hover:bg-gray-200 border-white hover:border-gray-200 text-sm border-4 text-black py-1 px-2 rounded" 
+                                type="submit"
+                            >
+                                Join
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                        <Image className="animate-rotate relative lg:w-[250px] lg:h-[250px] w-[150px] h-[150px] mx-auto mt-[50px]" src={Logo8} width={250} height={250} alt="oops"/>
                 </div>
             </div>
     

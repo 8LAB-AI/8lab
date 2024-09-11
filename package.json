@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "^14.2.3",
     "@smakss/react-scroll-direction": "^4.1.0",
+    "airtable": "^0.12.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
