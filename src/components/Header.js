@@ -39,9 +39,8 @@ export default function Header(){
                 <a href="https://x.com/8labhq"><Image src={Twitter} height={15} alt="oops"/></a>
             </div>
             <div className='flex gap-[15px] text-base text-white font-kl weight-[700] non-italic'>
-                <Link className="hover:cursor-pointer" to="about" smooth='easeIn' delay={150} duration={2500}>ABOUT</Link>
-                <Link className="block hover:cursor-pointer mb-[10px]" to="apply" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>APPLY</Link>
-                <Link className="hover:cursor-pointer" to="learn" smooth='easeIn' delay={150} duration={2500}>LEARN</Link>
+                <Link className="hover:cursor-pointer" to="breakdown" smooth='easeIn' delay={150} duration={2500}>ABOUT</Link>
+                <Link className="block hover:cursor-pointer mb-[10px]" to="join" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>JOIN</Link>
             </div>
         </div>
         :
@@ -51,9 +50,8 @@ export default function Header(){
                 <div className='absolute z-[5] px-[45px] md:bottom-[30px] bottom-[40px] text-2xl text-white font-kl weight-[700] non-italic'>
                     
                     <Link className="block hover:cursor-pointer mb-[20px]" to="home" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}><Image src={Logo} height={40} alt="logo"/></Link>
-                    <Link className="block hover:cursor-pointer mb-[10px]" to="about" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>ABOUT</Link>
-                    <Link className="block hover:cursor-pointer mb-[10px]" to="apply" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>APPLY</Link>
-                    <Link className="block hover:cursor-pointer mb-[25px]" to="learn" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>LEARN</Link>
+                    <Link className="block hover:cursor-pointer mb-[10px]" to="breakdown" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>ABOUT</Link>
+                    <Link className="block hover:cursor-pointer mb-[10px]" to="join" smooth='easeIn' delay={150} duration={2500} onClick={toggleMenu}>JOIN</Link>
                     <div className='flex self-center gap-[15px] ml-[5px]'>
                         <a href="mailto:hello@8lab.ai"><Image src={Mail} height={20} alt="oops"/></a>
                         <a href="https://www.instagram.com/8lab.ai/"><Image src={Ig} height={20} alt="oops"/></a>

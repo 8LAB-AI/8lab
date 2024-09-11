@@ -16,6 +16,7 @@ import { useState } from 'react';
 // component that renders an email input and submits that email to the backend service /api/subscribe
 export default function Apply(){
     const [email, setEmail] = useState('');
+    const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -35,15 +36,18 @@ export default function Apply(){
             console.log(error);
         } else {
             setEmail('');
+            setSubmitted(true);
         }
     }
 
 
     return(
-        <Element name="apply">
+        <Element name="join">
             <div className="[text-shadow:_0.5px_0.5px_0_#00c01d] relative z-[3] bg-black w-full h-full md:h-dvh overflow-hidden" >
                 <div className="relative z-[100]">
                 <div className="flex flex-col items-center justify-center h-full px-4 py-8">
+                    {!submitted &&
+
                     <form onSubmit={handleSubmit} className="w-full max-w-md">
                         <div className="flex items-center border-b border-white py-2">
                             <input 
@@ -63,6 +67,10 @@ export default function Apply(){
                             </button>
                         </div>
                     </form>
+                    }
+                    {submitted &&
+                        <p>We will be in touch.</p>
+                    }
                 </div>
                         <Image className="animate-rotate relative lg:w-[250px] lg:h-[250px] w-[150px] h-[150px] mx-auto mt-[50px]" src={Logo8} width={250} height={250} alt="oops"/>
                 </div>
