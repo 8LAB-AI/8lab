@@ -99,7 +99,7 @@ export default function Home(){
                 <div className="absolute w-full lg:w-auto top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[3]">
                     
                     <Parallax className="relative left-[50%] translate-x-[-50%] mt-[250px] lg:mt-[325px] lg:w-auto w-full" opacity={[1,0]} startScroll={0} endScroll={bottom/2}>
-                    <h2 className="relative block text-mobilexl lg:text-xl text-center font-kl uppercase pointer-events-none mb-[15px]">The Members-Only Hub for Creatives to Find, Be Found, and Grow—with Agent 8 + Humans.</h2>
+                    <h2 className="relative block text-mobilexl lg:text-xl text-center font-kl uppercase pointer-events-none mb-[15px]">The Members-Only Hub Where Creatives Find, Be Found, and Grow With Agent 8 + Humans.</h2>
                     </Parallax>
                     
                 </div>
