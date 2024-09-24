@@ -33,6 +33,9 @@ export default function Info(){
                     <div>
                         <h2 className="text-mobile2xl text-white lg:text-2xl font-kl mb-[25px] uppercase pointer-events-none">The 8LAB BR8KDOWN</h2>
                     </div>
+                    <div>
+                    Agent 8 is your AI co-founder that doesn't just guide - It helps you to get things done.
+                    </div>
 
 
                     <div className="flex flex-col lg:flex-row lg:gap-[25px] mt-[50px]">
@@ -40,22 +43,22 @@ export default function Info(){
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Achieve} height={40} alt="oops" />
                             <h3 className="text-xl mb-[20px] font-kl uppercase">Find</h3>
-                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Connect with the people and resources that move your vision forward and help your community grow stronger.</span>
+                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Discover curated connections—people, brands, and opportunities tailored to your vision. Earn points as you build meaningful relationships and influence.</span>
                         </div>
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops" />
                             <h3 className="text-xl mb-[20px] font-kl uppercase">Be found</h3>
-                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Increase your visibility to brands, creators, and collaborators who align with your mission.</span>
+                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Elevate your profile and get seen by the right brands and collaborators. Gain badges like "Dot Connector" or "Creative Innovator" as you actively contribute to the community.</span>
                         </div>
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Impact} height={40} alt="oops" />
                             <h3 className="text-xl mb-[20px] font-kl uppercase">Grow</h3>
-                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Advance your skills, projects, and network with guidance from your AI partner, Agent 8 + top experts.</span>
+                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Level up your skills through engaging challenges and quests. Get hands-on support to expand your abilities and boost your income. Unlock new tools, perks, and exclusive rewards as you progress on your  journey.</span>
                         </div>
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Money} height={40} alt="oops" />
                             <h3 className="text-xl mb-[20px] font-kl uppercase">The 8PASS</h3>
-                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Access experiences, products, apps, deals, and exclusive 8LAB benefits.</span>
+                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Turn your points into exclusive access to events, early product releases, VIP experiences, and more 8LAB benefits.</span>
                         </div>
                     </div>
                 </div>
