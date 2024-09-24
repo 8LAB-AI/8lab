@@ -34,7 +34,7 @@ export default function Info(){
                         <h2 className="text-mobile2xl text-white lg:text-2xl font-kl mb-[25px] uppercase pointer-events-none">The 8LAB BR8KDOWN</h2>
                     </div>
                     <div>
-                    Agent 8 is your AI co-founder that doesn't just guide - It helps you to get things done.
+                    Agent 8 is your AI co-founder that doesn&apos;t just guide - It helps you to get things done.
                     </div>
 
 
