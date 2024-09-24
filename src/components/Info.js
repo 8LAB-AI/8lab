@@ -48,7 +48,7 @@ export default function Info(){
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Innovate} height={40} alt="oops" />
                             <h3 className="text-xl mb-[20px] font-kl uppercase">Be found</h3>
-                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Elevate your profile and get seen by the right brands and collaborators. Gain badges like "Dot Connector" or "Creative Innovator" as you actively contribute to the community.</span>
+                            <span className="lg:text-lg text-mobilelg block mb-[15px]">Elevate your profile and get seen by the right brands and collaborators. Gain badges like &quot;Dot Connector&quot; or &quot;Creative Innovator&quot; as you actively contribute to the community.</span>
                         </div>
                         <div className="flex-1 mb-[100px] lg:mb-0">
                             <Image className="lg:mb-[20px] mb-[10px] h-[50px] lg:h-auto w-auto" src={Impact} height={40} alt="oops" />
