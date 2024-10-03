@@ -133,9 +133,6 @@ body {
   pointer-events: none;
 }
 
-.containerBlue::after {
-  animation: flicker 0.3s infinite;
-}
 .containerOverlay {
   background: #121010;
   width: 100dvw;
@@ -171,10 +168,6 @@ body {
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
-}
-
-.containerOverlay::after {
-  animation: flicker 0.3s infinite;
 }
 
 @keyframes turn-on {
